@@ -1,0 +1,36 @@
+.darkback {
+    background: #313131;
+}
+
+.stats{
+    width: 40%;
+}
+
+.statstext{
+    font-size: 1rem;
+}
+
+.pokedex-filter-text {
+    font-family: "Flexo-Regular", arial, sans-serif;
+    font-size: 167.5%;
+    text-transform: none;
+    width: 100%;
+    color: #fff;
+}
+.section-title{
+    color: #fff;
+    margin: 0.1em;
+}
+
+@media (min-width: 768px) {
+    .pokedex-filter-text {
+        justify-content: left !important;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .justify-content-between {
+        justify-content: center !important;
+    }
+}
