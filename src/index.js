@@ -19,7 +19,7 @@ function Header() {
         a.preventDefault();
         if (search.length > 2) {
             const response = await fetch(
-                `http://localhost:31114/api/pokeview/${search}`
+                `http://localhost:8080/api/pokeview/${search}`
             ).then((response) => response.json());
             appes.render(
                 <div className="container px-4 darkback">
@@ -67,7 +67,7 @@ function App() {
 
     const getApiDataPokedex = async () => {
         const response = await fetch(
-            "http://localhost:31114/api/pokeview"
+            "http://localhost:8080/api/pokeview"
         ).then((response) => response.json());
 
         setPokedex(response);
