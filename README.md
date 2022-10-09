@@ -1,3 +1,10 @@
+Usar npm install una vez descargado o clonado.
+
+Archivo a configurar para compatibilidad src/index.js:
+http://localhost:31114 - modificar puerto si se hizo algun cambio en el puerto del ApiRestPokeapp
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
