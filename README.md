@@ -1,7 +1,7 @@
 Usar npm install una vez descargado o clonado.
 
 Archivo a configurar para compatibilidad src/index.js:
-http://localhost:31114 - modificar puerto si se hizo algun cambio en el puerto del ApiRestPokeapp
+http://localhost:8080 - modificar puerto si se hizo algun cambio en el puerto del ApiRestPokeapp
 
 
 
